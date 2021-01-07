@@ -19,8 +19,8 @@ Commands list:
 
 4. <code>docker container run</code>
 	creates a container with the specified instructions and then runs it
-		-d runs the container in detatched mode
-		
+		-d runs the container in detatched mode( background mode, so when you quit in the terminal the container doesnt stop )
+		-p specify a particular port number to run the container in
 
 5. <code>docker container create</code>
 	creates a container with the specified instructions
@@ -33,3 +33,10 @@ Commands list:
 
 8. <code>docker container rm</code>
 	removes an already stopped container
+
+
+
+<br>
+<br>
+
+for more commands refer https://docs.docker.com/engine/reference/commandline/docker/
