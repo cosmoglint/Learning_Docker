@@ -19,10 +19,17 @@ Commands list:
 
 4. <code>docker container run</code>
 	creates a container with the specified instructions and then runs it
-
+		-d runs the container in detatched mode
+		
 
 5. <code>docker container create</code>
 	creates a container with the specified instructions
 
 6. <code>docker container start</code>
 	runs an existing container
+
+7. <code>docker container stop</code>
+	aborts a running container
+
+8. <code>docker container rm</code>
+	removes an already stopped container
