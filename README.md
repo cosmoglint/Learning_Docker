@@ -8,12 +8,14 @@ Commands list:
 	docker -v can also be used
 
 2. <code>docker ps</code>
+	<code>docekr ls</code>
 	lists out currently running docker containers (ps stands for process)
 	<ul>
 		<li>-a gives all the containers even the stopped ones</li>
 		<li>-f is used for filtering containers based on name or status</li>
 		<li>--name [customname]  can be used to give a cusom name to th e container. (if you dont each time you run an image a new container with a different name will be created) </li>
 	</ul>
+<br>
 3. <code>docker login/logout</code>
 	login or logout to your repository on docker hub
 
@@ -23,7 +25,7 @@ Commands list:
 		<li>-d runs the container in detatched mode( background mode, so when you quit in the terminal the container doesnt stop )
 		<li>-p specify a particular port number to run the container in</li>
 	</ul>
-
+<br>
 5. <code>docker container create</code>
 	creates a container with the specified instructions
 
