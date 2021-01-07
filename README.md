@@ -9,9 +9,11 @@ Commands list:
 
 2. <code>docker ps</code>
 	lists out currently running docker containers (ps stands for process)
-		-a gives all the containers even the stopped ones
-		-f is used for filtering containers based on name or status
-
+	<ul>
+		<li>-a gives all the containers even the stopped ones</li>
+		<li>-f is used for filtering containers based on name or status</li>
+	</ul>
+<br>
 3. <code>docker login/logout</code>
 	login or logout to your repository on docker hub
 
@@ -19,8 +21,11 @@ Commands list:
 
 4. <code>docker container run</code>
 	creates a container with the specified instructions and then runs it
-		-d runs the container in detatched mode( background mode, so when you quit in the terminal the container doesnt stop )
-		-p specify a particular port number to run the container in
+	<ul>
+		<li>-d runs the container in detatched mode( background mode, so when you quit in the terminal the container doesnt stop )
+		<li>-p specify a particular port number to run the container in</li>
+	</ul>
+<br>
 
 5. <code>docker container create</code>
 	creates a container with the specified instructions
