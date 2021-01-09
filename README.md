@@ -76,6 +76,10 @@ Commands list:
 	gracefully stops the container
 
 5. <code>docker container attach [conatiner_name]</code>
+	This command attaches us to the container name that is running in interactive mode with a pseudo-TTY
+
+
+<h5>tip</h5> you can exit out of a session with the exit command which stops and then quits the container. or you can use the ctrl-p + ctrl-q keys to exit out of the machine without stopping the conatiner
 
 <br>
 <br>
