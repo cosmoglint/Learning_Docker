@@ -38,7 +38,12 @@ Commands list:
 8. <code>docker container rm</code>
 	removes an already stopped container. multiple container names or ids can be given space separated to be removed at once. filter flag can also be used in all Commands.
 
-
+9. <code>docker inspect</code>
+	This command gives more details about the container than the ps command. This information is useful and the container can be viewed at a lower level( all the details necessary ).
+	<ul>
+		<li>-f flag is used to format the output for specific requirement which is in json.  ( can also be used as --format={{args}} )</li>
+			- docker inspect -f '{{ .NetworkSettings.IPAddress }}' [container_name] &nbsp&nbsp&nbsp&nbsp gives the ip address of the container
+	</ul>
 
 <br>
 <br>
