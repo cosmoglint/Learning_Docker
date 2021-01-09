@@ -3,6 +3,7 @@ This repository is entirely dedicated to docker and docker compose commands.
 
 Commands list:
 
+<h4>Basic commands</h4>
 1. <code>docker version</code>
 	gives the version of docker running
 	docker -v can also be used
@@ -29,16 +30,16 @@ Commands list:
 5. <code>docker container create</code>
 	creates a container with the specified instructions
 
-6. <code>docker container start</code>
+6. <code>docker container start [container_name]</code>
 	runs an existing container
 
-7. <code>docker container stop</code>
+7. <code>docker container stop [container_name]</code>
 	aborts a running container
 
-8. <code>docker container rm</code>
+8. <code>docker container rm [container_name]</code>
 	removes an already stopped container. multiple container names or ids can be given space separated to be removed at once. filter flag can also be used in all Commands.
 
-9. <code>docker inspect</code>
+9. <code>docker inspect [container_name]</code>
 	This command gives more details about the container than the ps command. This information is useful and the container can be viewed at a lower level( all the details necessary ).
 	<ul>
 		<li>-f flag is used to format the output for specific requirement which is in json.  ( can also be used as --format={{args}} )</li>
@@ -49,9 +50,23 @@ Commands list:
 	This command gives the current stats of a container like memory usage network i/o and cpu
 	<ul>
 		<li>--no-stream  is used if you dont want a stream output</li>
+		<li>--no-trunc  is used if the entire conatiner id is required</li>
+		<li>--format to format the table output</li>
 	</ul>
 
+11. <code>docker top [container_name]</code>
+	This command shows the internal operations and processes of a docker container
 <br>
 <br>
 
+<h4>Container commands</h4>
+
+1. <code>docker container run</code>
+2. <code>docker container attach</code>
+3. <code>docker container exec</code>
+4. <code>docker container cp</code>
+4. <code>docker container stop</code>
+
+<br>
+<br>
 for more commands refer https://docs.docker.com/engine/reference/commandline/docker/
