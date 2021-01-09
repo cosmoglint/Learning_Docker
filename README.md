@@ -69,7 +69,9 @@ Commands list:
 2. <code>docker container exec [conatiner_name]</code>
 	executes a command from within the container
 
-3. <code>docker container cp [conatiner_name]</code>
+	- this command takes in parameters which it should attach with the given container name( for example if you have started a container without interactive mode you can say <code>docker container exec -it [container_name] /bin/bash</code> to enter the container  or <code>docker container exec [conatienr_name] ls</code> to list out the container items)
+
+3. <code>docker container cp [source_path] [destination_path]</code>
 	copies files between host and the container
 
 4. <code>docker container stop [conatiner_name]</code>

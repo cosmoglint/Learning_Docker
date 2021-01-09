@@ -15,3 +15,12 @@ docker inspect -f '{{range .NetworkSettings.Networks }}{{.MacAddress}}{{end}}' [
 
 # this gives the id, name and cpu percentage stats
 docker stats --no-stream --format "table {{.Container}}\t{{.Name}}\t{{.CPUPerc}}" [conatiner_name]
+
+
+# cp command is useful in transferring files between the host and the container
+# the following command copies the test.txt file from your current directory to the root directory of the container
+docker container cp /test.txt  [conatiner_name]:/
+
+# exec command is used to execute commands from within the container
+# for example the following command prints the root directory of the conatiner
+docker container exec [conatienr_name] ls
