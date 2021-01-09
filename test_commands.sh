@@ -20,6 +20,7 @@ docker stats --no-stream --format "table {{.Container}}\t{{.Name}}\t{{.CPUPerc}}
 # cp command is useful in transferring files between the host and the container
 # the following command copies the test.txt file from your current directory to the root directory of the container
 docker container cp /test.txt  [conatiner_name]:/
+# the container and host locations can be switched too
 
 # exec command is used to execute commands from within the container
 # for example the following command prints the root directory of the conatiner

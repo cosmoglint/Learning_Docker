@@ -75,10 +75,14 @@ Commands list:
 	copies files between host and the container
 
 4. <code>docker container stop [conatiner_name]</code>
-	gracefully stops the container
+	gracefully stops the container.
+	it sends both sigterm(close all processes) and sigkill(shut down the container)
 
 5. <code>docker container attach [conatiner_name]</code>
 	This command attaches us to the container name that is running in interactive mode with a pseudo-TTY
+
+6. <code>docker container kill [container_name]</code>
+	this one just sends the sigkill command without exiting all processes(you may lose data)
 
 
 <h5>tip</h5> you can exit out of a session with the exit command which stops and then quits the container. or you can use the ctrl-p + ctrl-q keys to exit out of the machine without stopping the conatiner
