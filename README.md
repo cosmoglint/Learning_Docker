@@ -61,11 +61,19 @@ Commands list:
 
 <h4>Container commands</h4>
 
-1. <code>docker container run</code>
-2. <code>docker container attach</code>
-3. <code>docker container exec</code>
-4. <code>docker container cp</code>
-4. <code>docker container stop</code>
+1. <code>docker container run [image_name]</code>
+	pulls an image and runs a container created with it
+
+2. <code>docker container exec [conatiner_name]</code>
+	executes a command from within the container
+
+3. <code>docker container cp [conatiner_name]</code>
+	copies files between host and the container
+
+4. <code>docker container stop [conatiner_name]</code>
+	gracefully stops the container
+
+5. <code>docker container attach [conatiner_name]</code>
 
 <br>
 <br>
