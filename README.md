@@ -45,6 +45,12 @@ Commands list:
 			- docker inspect -f '{{ .NetworkSettings.IPAddress }}' [container_name] &nbsp&nbsp&nbsp&nbsp gives the ip address of the container
 	</ul>
 
+10. <code>docker stats</code>
+	This command gives the current stats of a container like memory usage network i/o and cpu
+	<ul>
+		<li>--no-stream  is used if you dont want a stream output</li>
+	</ul>
+
 <br>
 <br>
 
