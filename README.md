@@ -20,11 +20,13 @@ Commands list:
 3. <code>docker login/logout</code>
 	login or logout to your repository on docker hub
 
-4. <code>docker container run</code>
+4. <code>docker container run [image_name]</code>
 	creates a container with the specified instructions and then runs it
 	<ul>
 		<li>-d runs the container in detatched mode( background mode, so when you quit in the terminal the container doesnt stop )
 		<li>-p specify a particular port number to run the container in</li>
+		<li>-i run in interactive mode</li>
+		<li>-t allocate a pseudo-TTY ( allocates the terminal to container)</li>
 	</ul>
 <br>
 5. <code>docker container create</code>
