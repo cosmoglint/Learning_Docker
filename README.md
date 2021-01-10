@@ -16,7 +16,10 @@ Commands list:
 		<li>-f is used for filtering containers based on name or status</li>
 		<li>--name [customname]  can be used to give a cusom name to th e container. (if you dont each time you run an image a new container with a different name will be created) </li>
 	</ul>
+	a)<code>docekr [container/volumne/image/network/system] ls</code>
+		can be used to view any volume image or container  specifically. system shows all containers/networks and images
 <br>
+
 3. <code>docker login/logout</code>
 	login or logout to your repository on docker hub
 
