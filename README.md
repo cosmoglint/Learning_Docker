@@ -89,4 +89,19 @@ Commands list:
 
 <br>
 <br>
+
+
+<h4>Commands for cleaning up</h4>
+
+1. <code>docker [container/volume/network/image/system] prune</code>
+	This removes dangling(stopped) docker data/container/image/volume
+
+2. <code>docker container rmi</code>
+	removes docker images
+
+3. <code>docker run --rm</code>
+	runs a container with the condition that if the container stops it is removed
+
+
+
 for more commands refer https://docs.docker.com/engine/reference/commandline/docker/
