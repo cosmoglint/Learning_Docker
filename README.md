@@ -99,7 +99,7 @@ Commands list:
 1. <code>docker [container/volume/network/image/system] prune</code>
 	This removes dangling(stopped) docker data/container/image/volume
 
-2. <code>docker container rmi</code>
+2. <code>docker rmi</code>
 	removes docker images
 
 3. <code>docker run --rm</code>
