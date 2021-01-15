@@ -107,4 +107,9 @@ Commands list:
 
 
 
+<h4>Building images</h4>
+
+1. <code>docker build [path] -t [tag_names]</code>
+
+
 for more commands refer https://docs.docker.com/engine/reference/commandline/docker/
