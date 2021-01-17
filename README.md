@@ -30,6 +30,7 @@ Commands list:
 		<li>-p specify a particular port number to run the container in</li>
 		<li>-i run in interactive mode</li>
 		<li>-t allocate a pseudo-TTY ( allocates the terminal to container)</li>
+		<li>--name=[custom_name]  can be used to allocate a name for the container</li>
 	</ul>
 <br>
 5. <code>docker container create</code>
@@ -104,6 +105,13 @@ Commands list:
 
 3. <code>docker run --rm</code>
 	runs a container with the condition that if the container stops it is removed
+
+<h5>point</h5>
+
+- docker image prune removes images that dont have a custom name or a tag( also called a dangling image)
+<br>
+<br>
+
 
 
 

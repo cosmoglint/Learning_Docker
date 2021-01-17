@@ -5,3 +5,4 @@ RUN rm -f /etc/nginx/sites-enabled/default
 COPY default /etc/nginx/sites-enabled/default
 COPY 22.txt /var/www/html/22.txt
 COPY 21.txt /var/www/html/21.txt
+CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
