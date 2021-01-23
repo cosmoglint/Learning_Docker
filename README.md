@@ -119,5 +119,6 @@ Commands list:
 
 1. <code>docker build [path] -t [tag_names]</code>
 
+2. connecting with github allows for simple workflow and auto building of images
 
 for more commands refer https://docs.docker.com/engine/reference/commandline/docker/
